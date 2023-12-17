@@ -3,6 +3,7 @@ const body = document.querySelector('body');
 
 buttons.forEach( (button) => {
     console.log(button);
+    button.style.borderRadius = "50%"
     button.addEventListener('click', (event) => {
         console.log(event);
         console.log(event.target);
